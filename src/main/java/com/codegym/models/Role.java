@@ -6,7 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class    Role implements GrantedAuthority {
+public class Role implements GrantedAuthority {
     @Id private Long id;
     private String name;
 
